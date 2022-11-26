@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "cursiva";
+  src: url(../fontes/WhiteAngelica.ttf);
+}
+@font-face {
+  font-family: "glitten";
+  src: url(../fontes/GLITTEN\ ALL\ CAPS.ttf);
+}
+@font-face {
+  font-family: "vogue";
+  src: url(../fontes/Vogue.ttf);
+}
+@font-face {
+  font-family: "formas";
+  src: url(../fontes/Nymphette.ttf);
+}
+@font-face {
+  font-family: "logo";
+  src: url(../fontes/logo.ttf);
+}
+@font-face {
+  font-family: "um";
+  src: url(../fontes/Wedding.otf);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: hidden;
+  background-image: url(../img/capa111.png);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box-container {
+  height: 600px;
+  width: 45%;
+  border-radius: 20px;
+  background-color: rgba(240, 255, 255, 0.349);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.box-container h1 {
+  font-family: "cursiva";
+  color: #fff;
+  font-size: 36px;
+  font-weight: 100;
+}
+.box-container .cx1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+}
+.box-container .cx1 .caixa {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 350px;
+  width: 100%;
+}
+.box-container .cx1 .caixa .title {
+  width: 100%;
+}
+.box-container .cx1 .caixa .title h2 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  color: rgb(212, 212, 212);
+}
+.box-container .cx1 .inp {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 75%;
+}
+.box-container .cx1 .inp .mini {
+  margin-bottom: 10px;
+}
+.box-container .cx1 .inp label {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(219, 219, 219);
+}
+.box-container .cx1 .inp input {
+  position: relative;
+  left: 10px;
+}
+.box-container .cx1 .inp .pix {
+  position: relative;
+  left: 114px;
+}
+.box-container .cx1 .inp .vale {
+  position: relative;
+  left: 38px;
+}
+.box-container .cx1 .inp .din {
+  position: relative;
+  left: 76px;
+}
+.box-container .cx1 .inp .deb {
+  position: relative;
+  left: 15px;
+}
+.box-container .cx2 {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 80px;
+  margin-right: 30px;
+}
+.box-container .cx2 img {
+  width: 400px;
+  height: 400px;
+}
+.box-container button {
+  height: 40px;
+  width: 150px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  border: #584c2b 1px solid;
+  background-color: transparent;
+  text-align: center;
+  transition: 0.5s ease-in;
+  margin-bottom: 50px;
+}
+.box-container button a {
+  text-decoration: none;
+  color: rgb(236, 228, 217);
+  font-size: 14px;
+}
+.box-container button:hover {
+  font-size: 12px;
+  background-color: #584e32;
+  border-radius: 0px;
+}/*# sourceMappingURL=pagamento.css.map */
