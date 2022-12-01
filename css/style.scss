@@ -390,12 +390,20 @@ list-style: none;
                     
         img{
             width: 100%;
+            animation: loading 9s linear infinite;
 
         }
-        }img:hover{
-            width: 108%;
-            transition: 1s;
+
+        @keyframes loading {
+            100% {
+                transform: rotate(360deg);
+            }
         }
+        }
+        // img:hover{
+        //     width: 108%;
+        //     transition: 1s;
+        // }
 
         button{
             width: 150px;
@@ -1136,5 +1144,14 @@ body{
 }
 
 
+}
+
+
+
+@media (min-width:1400px) {
+    .header{
+        .box{
+            width: 63%;
+        }}
 }
 

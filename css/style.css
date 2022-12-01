@@ -286,10 +286,18 @@ body {
 }
 .section2 .minibox-container .box .img img {
   width: 100%;
+  -webkit-animation: loading 9s linear infinite;
+          animation: loading 9s linear infinite;
 }
-.section2 .minibox-container .box img:hover {
-  width: 108%;
-  transition: 1s;
+@-webkit-keyframes loading {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loading {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .section2 .minibox-container .box button {
   width: 150px;
@@ -901,5 +909,10 @@ body {
   }
   .section3 .slide-images .foto {
     display: none;
+  }
+}
+@media (min-width: 1400px) {
+  .header .box {
+    width: 63%;
   }
 }/*# sourceMappingURL=style.css.map */
